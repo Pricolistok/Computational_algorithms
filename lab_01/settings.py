@@ -1,0 +1,1 @@
+FILE_TABLE = "data/data_first.txt"
