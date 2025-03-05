@@ -2,9 +2,9 @@ from logic import get_table_with_one_level, get_table_with_more_levels, find_roo
 
 
 def print_menu():
-    print("1 - Вывести таблицу занчений по заданному N и X")
-    print("2 - Вывести таблицу занчений по заданному множеству N и единаственному X")
-    print("3 - Найти корень уровнения при помощи обратной интерполяции")
+    print("1 - Вывести значения по заданному N и X")
+    print("2 - Вывести таблицу значений по заданному множеству N и единственному X")
+    print("3 - Найти корень уравнения при помощи обратной интерполяции")
     print("4 - Решение системы уравнений")
 
 
@@ -15,7 +15,6 @@ def main():
         match choice:
             case "1":
                 get_table_with_one_level()
-
             case "2":
                 get_table_with_more_levels()
             case "3":
